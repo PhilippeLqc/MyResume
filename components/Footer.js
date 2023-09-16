@@ -14,7 +14,7 @@ function Footer() {
     { icon: faGithub, url: "https://github.com/PhilippeLqc" },
     { icon: faLinkedinIn, url: "https://www.linkedin.com/in/philippe-lqc" },
     { icon: faXTwitter, url: "https://twitter.com/pilipou" },
-    { icon: faInstagram, url: "https://www.instagram.com/philippebdx/" },
+    { icon: faInstagram, url: "https://www.instagram.com/pilipoubdx/" },
     { icon: faEnvelope, url: "mailto:philippe.lequoc@gmail.com" },
   ];
 
