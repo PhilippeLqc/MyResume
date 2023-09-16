@@ -1,13 +1,21 @@
-import styles from '../styles/Home.module.css';
+import styles from "../styles/Home.module.css";
+import React from "react";
+import Companies from "./Companies";
+import Footer from "./Footer";
+import Header from "./Header";
+import Projects from "./Projects";
+import Skills from "./Skills";
+import PersonnalProjects from "./PersonnalProjects";
 
 function Home() {
   return (
     <div>
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-      </main>
+      <Header />
+      <Skills />
+      <Projects />
+      <PersonnalProjects />
+      <Companies />
+      <Footer />
     </div>
   );
 }

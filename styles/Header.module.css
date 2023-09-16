@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans-VariableFont_wght.ttf') format('truetype');
+  }
+  
+  /* Styles de base pour les grands écrans */
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    background-image: url('/images/backgroundHeader.jpeg');
+    background-size: 120%;
+    background-position-y: 50%;
+  }
+  
+  .headerTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .headerTitle h1 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: JosefinSans, sans-serif;
+    color: #FFFFFF;
+    margin-top: 10%;
+  }
+  
+  .headerTitle p {
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    font-family: JosefinSans, sans-serif;
+    color: #FFFFFF;
+    margin-top: -2%;
+    margin-bottom: 8%;
+  }
+  
+  .headerIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -3%;
+  }
+  
+  .headerIcon img {
+    width: 306px;
+    height: 194px;
+    flex-shrink: 0;
+  }
+  
+  .headerPresentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3B99B;
+  }
+  
+  .headerPresentation p {
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    font-family: JosefinSans, sans-serif;
+    color: #FFFFFF;
+    width: 40%;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  
+  .headerPresentation h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: JosefinSans, sans-serif;
+    color: #FFFFFF;
+    margin-top: 3%;
+  }
+  
+  /* Requête média pour les écrans de largeur maximale de 768px */
+  @media (min-width: 769px) {
+    .header {
+      height: auto; /* Ajustez la hauteur en fonction du contenu */
+      background-size: cover;
+    }
+  
+    .headerTitle h1 {
+      font-size: 24px; /* Réduisez la taille de la police */
+      text-align: center;
+    }
+  
+    .headerTitle p {
+      font-size: 18px; /* Réduisez la taille de la police */
+      text-align: center;
+    }
+
+    .headerTitle img {
+        width: 40%; /* Ajustez la largeur de l'image */
+        height: auto; /* Ajustez la hauteur de l'image */
+    }
+  
+    .headerIcon img {
+        width: 10%; /* Ajustez la largeur de l'image */
+        height: auto; /* Ajustez la hauteur de l'image */
+        margin-bottom: 3%;
+    }
+  
+    .headerPresentation p {
+        font-size: 20px; /* Réduisez la taille de la police */;
+      width: 80%; /* Réglez la largeur du texte */
+      text-align: center;
+    }
+
+    .headerPresentation h2 {
+        font-size: 24px; /* Réduisez la taille de la police */
+        text-align: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      height: auto; /* Ajustez la hauteur en fonction du contenu */
+      background-size: cover;
+    }
+  
+    .headerTitle h1 {
+      font-size: 24px; /* Réduisez la taille de la police */
+      text-align: center;
+    }
+  
+    .headerTitle p {
+      font-size: 18px; /* Réduisez la taille de la police */
+      text-align: center;
+    }
+
+    .headerTitle img {
+        width: 50%; /* Ajustez la largeur de l'image */
+        height: auto; /* Ajustez la hauteur de l'image */
+    }
+  
+    .headerIcon img {
+        width: 50%; /* Ajustez la largeur de l'image */
+        height: auto; /* Ajustez la hauteur de l'image */
+    }
+  
+    .headerPresentation p {
+        font-size: 20px; /* Réduisez la taille de la police */;
+      width: 80%; /* Réglez la largeur du texte */
+      text-align: center;
+    }
+
+    .headerPresentation h2 {
+        font-size: 24px; /* Réduisez la taille de la police */
+        text-align: center;
+    }
+  }
+  

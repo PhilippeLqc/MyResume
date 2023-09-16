@@ -1,0 +1,143 @@
+/* Styles pour les écrans plus larges */
+.mainSkills {
+    display: flex;
+    margin: -3% 0% 0% 0%;
+    flex-wrap: wrap;
+    font-family: JosefinSans, sans-serif;
+}
+
+.softskills {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 900px;
+    background-color: #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid rgb(189, 189, 189);
+    margin: 0% 0% 0% 3%;
+    padding: 2% 0% 3% 0%;
+}
+.diplomas {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 900px;
+    background-color: #FFFFFF;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid rgb(189, 189, 189);
+    margin: 0% 3% 0% 0%;
+    padding: 2% 0% 3% 0%;
+}
+
+.hardskills {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 900px;
+    background-color: #FFFFFF;
+    border-top: 1px solid rgb(189, 189, 189);
+    border-bottom: 1px solid rgb(189, 189, 189);
+    padding: 2% 0% 3% 0%;
+
+}
+
+.softskills p,
+.hardskills p,
+.diplomas p {
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    color: #000000;
+    margin: 0% 5% 5% 2%;
+    padding: 0% 0% 0% 0%;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+.content h3 {
+    font-size: 22px;
+    line-height: normal;
+    color: #047DB0;
+    text-align: center;
+}
+
+.softskills h2,
+.hardskills h2,
+.diplomas h2 {
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    color: #000000;
+    margin: 3% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    text-align: center;
+}
+
+/* Requête média pour les écrans de largeur maximale de 768px */
+@media (max-width: 768px) {
+    .mainSkills {
+        flex-direction: column; /* Passer à une mise en page en colonnes empilées */
+        align-items: center;
+        margin: -8% 0% 0% 0%;
+    }
+
+    .softskills {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90%;
+        height: 900px;
+        background-color: #FFFFFF;
+        border-radius: 10px 10px 0px 0px;
+        border: 1px solid rgb(189, 189, 189);
+        margin: 0% 0% 0% 0%;
+    }
+    .diplomas {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90%;
+        height: 900px;
+        background-color: #FFFFFF;
+        border-radius: 0px 0px 10px 10px;
+        border: 1px solid rgb(189, 189, 189);
+        margin: 0% 0% 0% 0%;
+    }
+    
+    .hardskills {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90%;
+        height: 900px;
+        background-color: #FFFFFF;
+        border-left: 1px solid rgb(189, 189, 189);
+        border-right: 1px solid rgb(189, 189, 189);
+        border-top: 0px;
+        border-bottom: 0px;
+    
+    }
+}
