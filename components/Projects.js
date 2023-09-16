@@ -20,7 +20,7 @@ function Projects() {
     {
       image: "/images/MyMoviz.png",
       title: "Mymoviz",
-      description: "Website that collects info from AMDB API.",
+      description: "Website that collects info from TMDB API.",
       link: "https://t.ly/2-g5A",
       GitHub: "https://t.ly/S4fDL",
     },
