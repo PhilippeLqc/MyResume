@@ -29,8 +29,8 @@ function Projects() {
       title: "myResume",
       description:
         "Made this website from scratch to practice and show what I can do.",
-      link: "",
-      GitHub: "",
+      link: "https://my-resume-brown.vercel.app/",
+      GitHub: "https://github.com/PhilippeLqc/MyResume",
     },
   ];
 
