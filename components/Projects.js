@@ -14,13 +14,15 @@ function Projects() {
       title: "Ariane",
       description:
         "App made for connecting people via family. Create a family tree.",
-      link: "https://t.ly/awbE",
+      youtube: "https://t.ly/08nD",
+      link: "",
       GitHub: "https://t.ly/awbE",
     },
     {
       image: "/images/MyMoviz.png",
       title: "Mymoviz",
       description: "Website that collects info from TMDB API.",
+      youtube: "",
       link: "https://t.ly/2-g5A",
       GitHub: "https://t.ly/S4fDL",
     },
@@ -29,6 +31,7 @@ function Projects() {
       title: "myResume",
       description:
         "Made this website from scratch to practice and show what I can do.",
+      youtube: "",
       link: "https://my-resume-brown.vercel.app/",
       GitHub: "https://github.com/PhilippeLqc/MyResume",
     },
@@ -64,9 +67,15 @@ function Projects() {
                     <p>{project.description}</p>
                   </CardContent>
                   <CardActions className={styles.cardActions}>
-                    <Link href={project.link} underline="none" target="_blank">
+                    <Link
+                      href={
+                        project.link === "" ? project.youtube : project.link
+                      }
+                      underline="none"
+                      target="_blank"
+                    >
                       <Button size="small" className={styles.button}>
-                        Visit website
+                        {project.link === "" ? "See Demo" : "Visit website"}
                       </Button>
                     </Link>
                     <Link
