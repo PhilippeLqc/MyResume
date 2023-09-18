@@ -40,6 +40,10 @@ function Projects() {
   return (
     <div className={styles.main}>
       <h1>Some projects I worked on</h1>
+      <p>
+        Some of them are made with React, NextJs, NodeJs, ExpressJs. Time of
+        development never exceed 2 weeks.
+      </p>
       <div className={styles.cardContainer}>
         <Container sx={{ py: 8 }} maxWidth="md">
           <Grid container spacing={4}>
@@ -63,7 +67,9 @@ function Projects() {
                     }}
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
-                    <p>{project.title}</p>
+                    <p style={{ fontWeight: "bold", color: "#047DB0" }}>
+                      {project.title}
+                    </p>
                     <p>{project.description}</p>
                   </CardContent>
                   <CardActions className={styles.cardActions}>

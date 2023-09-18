@@ -1,7 +1,7 @@
-/* Styles pour les écrans plus larges */
 .mainSkills {
     display: flex;
-    margin: -3% 0% 0% 0%;
+    margin: -3% 0% 0% 25%;
+    width: 50%;
     flex-wrap: wrap;
     font-family: JosefinSans, sans-serif;
 }
@@ -12,8 +12,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 20%;
-    height: 900px;
+    width: 5%;
+    height: 700px;
     background-color: #FFFFFF;
     border-radius: 10px 0px 0px 10px;
     border: 1px solid rgb(189, 189, 189);
@@ -26,8 +26,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 20%;
-    height: 900px;
+    width: 5%;
+    height: 700px;
     background-color: #FFFFFF;
     border-radius: 0px 10px 10px 0px;
     border: 1px solid rgb(189, 189, 189);
@@ -41,13 +41,12 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 20%;
-    height: 900px;
+    width: 5%;
+    height: 700px;
     background-color: #FFFFFF;
     border-top: 1px solid rgb(189, 189, 189);
     border-bottom: 1px solid rgb(189, 189, 189);
     padding: 2% 0% 3% 0%;
-
 }
 
 .softskills p,
@@ -95,7 +94,8 @@
     .mainSkills {
         flex-direction: column; /* Passer à une mise en page en colonnes empilées */
         align-items: center;
-        margin: -8% 0% 0% 0%;
+        margin: -3% 0% 0% 0%;
+        width: 100%;
     }
 
     .softskills {
@@ -105,7 +105,7 @@
         justify-content: space-evenly;
         align-items: center;
         width: 90%;
-        height: 900px;
+        height: 600px;
         background-color: #FFFFFF;
         border-radius: 10px 10px 0px 0px;
         border: 1px solid rgb(189, 189, 189);
@@ -118,7 +118,7 @@
         justify-content: space-evenly;
         align-items: center;
         width: 90%;
-        height: 900px;
+        height: 600px;
         background-color: #FFFFFF;
         border-radius: 0px 0px 10px 10px;
         border: 1px solid rgb(189, 189, 189);
@@ -132,7 +132,7 @@
         justify-content: space-evenly;
         align-items: center;
         width: 90%;
-        height: 900px;
+        height: 600px;
         background-color: #FFFFFF;
         border-left: 1px solid rgb(189, 189, 189);
         border-right: 1px solid rgb(189, 189, 189);

@@ -45,6 +45,7 @@ function PersonnalProjects() {
   return (
     <div className={styles.main}>
       <h1>Personnal project I work on</h1>
+      <p>Always practice to improve, learn & have fun.</p>
       <div className={styles.cardContainer}>
         <Container sx={{ py: 8 }} maxWidth="md">
           <Grid container spacing={4}>

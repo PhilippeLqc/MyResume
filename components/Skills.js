@@ -24,7 +24,7 @@ function Skills() {
           </div>
           <div>
             <h3>WHat I want to learn</h3>
-            <p>Python, Java, Angular, VueJs, Flutter, Kotlin</p>
+            <p>Python, Java, Angular, VueJs, Typescript, Flutter, Kotlin</p>
           </div>
         </div>
       </div>
